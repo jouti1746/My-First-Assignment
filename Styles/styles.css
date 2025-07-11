@@ -7,11 +7,14 @@
 }
 
 
-.inter-normal-one {
-  font-family: "Inter", sans-serif;
+
+  
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-style: normal;
+   font-style: normal;
 }
+
 
 /* Shared Styles */
 .btn-primary{
@@ -35,5 +38,19 @@ nav{
 .nav-title{
     color: rgba(78, 71, 255, 1);
     font-weight: 900;
-    font-size: 34;
+    font-size: 34px;
 }
+
+/* Banner Styles */
+
+.banner{
+   text-align: center;
+    margin:309px 267.5px 152px 267.5px  ;
+    
+    max-width: 905px;
+}
+ .banner-heading{
+    font-weight: 700;
+    font-size: 65px;
+    color: rgba(37, 36, 50, 1);
+ }
