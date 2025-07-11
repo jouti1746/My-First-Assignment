@@ -50,10 +50,46 @@ nav{
    text-align: center;
     margin:0 267.5px;
      max-width: 905px;
+     
 }
 
  .banner-heading{
     font-weight: 700;
     font-size: 65px;
     color: rgba(37, 36, 50, 1);
+ }
+
+ .Focused{
+    margin:0 267.5px 152px 268px;
+ }
+ /* Action Styles */
+ main{
+    margin: 116px 160px 0px 140px;
+ }
+  
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin:0 159px 141px 0;
+}
+
+.action-content{
+    max-width: 517px;
+}
+
+ .action-heading{
+    font-weight: bold;
+    font-size: 42px;
+    color: rgba(37, 36, 50, 1);
+ }
+
+ .action-description{
+    font-weight: 400;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+ }
+   
+ .action-picture{
+    border-radius: 48px;
+    width: 403px;
  }
