@@ -29,6 +29,13 @@
     padding: 12px 36px;
     color: rgba(255, 255, 255, 1);
 }
+.btn-primary:hover{
+   color: black;
+   background-color:yellowgreen ;
+}
+
+
+
 
 /* Nav Styles */
 nav{
@@ -151,9 +158,66 @@ color: rgba(37, 36, 50, 1);
 .skills-container{
    display: flex;
    justify-content: space-around;
+   
 }
- 
- 
- 
-
+.touch-title{
+   font-size: 97px;
+   font-weight: bold;
+   color: rgba(0, 0, 0, 1);
+   text-align: left;
+   
+}
+.section-column{
+   width: 1140px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 50px;
+   border: 2px solid blue;
   
+}
+.touch-column2{
+   font-size: 18px;
+   font-weight: 500;
+   text-align: left;
+
+ 
+}
+.touch-column2 input{
+   width: 250px;
+   height: 30px;
+   margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  
+}
+ .footer-title{
+   font-size: 100px;
+   font-weight: 900;
+   color: rgba(78, 71, 255, 1);
+   text-align: center;
+ }
+  .footer-description{
+   color: rgba(137, 135, 161, 1);
+   font-size: 30px;
+   text-align: center;
+   
+  }
+
+  footer ul{
+   display: flex;
+   justify-content: space-around;
+  }
+ footer section ul{
+   list-style: none;
+   
+ }
+ 
+footer li a{
+   text-decoration: none;
+   font-size: 30px;
+   
+}
+  .dark-light{
+   color: rgba(137, 135, 161, 1);
+  }
